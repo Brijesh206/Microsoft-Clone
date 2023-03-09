@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,30 +9,119 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="/style.css">
 </head>
-<body>
 
-        <div class="navbar flex justify-between items-center p-4">
+<body>
+    <div class="container">
+        <div class="navbar flex justify-between items-center py-2 px-4">
             <div class="left flex items-center">
                 <div class="inline-block cursor-pointer p-2">
                     <div class="line w-5 h-[1px] my-1 bg-black"></div>
                     <div class="line w-5 h-[1px] my-1 bg-black"></div>
                     <div class="line w-5 h-[1px] my-1 bg-black"></div>
                 </div>
-    
+
                 <div class="search pl-3">
-                    <img class="w-4" src="/assets/search-svgrepo-com.svg" alt="">
+                    <img class="w-4" src="/assets/icons/search-svgrepo-com.svg" alt="search">
                 </div>
             </div>
 
             <div class="logo w-24">
-                <img src="/assets/logo.png" alt="">
+                <img src="/assets/images/logo.png" alt="logo">
             </div>
             <div class="right flex space-x-2 w-12 justify-between">
-                <img class="w-4" src="/assets/cart.svg" alt="">
-                <img class="w-4" src="/assets/account.svg" alt="">
+                <img class="w-4" src="/assets/icons/cart.svg" alt="cart">
+                <img class="w-4" src="/assets/icons/account.svg" alt="account">
             </div>
         </div>
-    
-    
+
+        <div class="heroheader flex flex-col items-center shadow-lg pb-5">
+            <div class="object-fill h-48 w-96">
+                <img class="" src="/assets/images/laptop.png" alt="laptos">
+            </div>
+            <!-- <span class="px-3 py-1 my-4 font-medium ml-4 bg-yellow-500 w-fit">New</span> -->
+            <div class="flex flex-col space-y-3 pt mx-6 pt-20">
+                <div class="button px-3 py-0.5 font-medium bg-yellow-500 w-fit">New</div>
+                <span class="font-medium text-2xl">Surface Pro 9</span>
+                <span>
+                    Tablet versatility and laptop power — all in one ultra-portable device
+                </span>
+                <div class="pt-4">
+                    <button class="bg-blue-700 text-white px-3 py-2 font-medium rounded-sm w-fit">Learn more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="secondSection py-8">
+            <div class="items flex items-center flex-col space-y-2 py-3">
+                <img class="w-10" src="/assets/icons/ic1.webp" alt="icon">
+                <span class="font-medium text-blue-700 underline">Choose your Microsoft 365</span>
+            </div>
+            <div class="items flex items-center flex-col space-y-2 py-3">
+                <img class="w-10" src="/assets/icons/ic2.webp" alt="icon">
+                <span class="font-medium text-blue-700 underline">Explore Surface devices</span>
+            </div>
+            <div class="items flex items-center flex-col space-y-2 py-3">
+                <img class="w-10" src="/assets/icons/ic3.webp" alt="icon">
+                <span class="font-medium text-blue-700 underline">Buy Xbox games</span>
+            </div>
+            <div class="items flex items-center flex-col space-y-2 py-3">
+                <img class="w-10" src="/assets/icons/ic1.webp" alt="icon">
+                <span class="font-medium text-blue-700 underline">Get Windows 11</span>
+            </div>
+        </div>
+
+        <div class="thirdSection">
+            <div class="items flex w-80 flex-col pl-4 space-y-3">
+                <img class="w-72" src="/assets/images/PC-Game-Pass-Expansion.avif" alt="PC-Game-Pass-Expansion">
+                <span class="font-medium text-2xl pt-8">Xbox Game Pass Ultimate</span>
+                <span class="w-72">
+                    Get your first month of Xbox Game Pass Ultimate for only ₹50.
+                </span>
+                <div class="flex space-x-2 cursor-pointer font-medium text-blue-600 items-center">
+                    <span>Join now</span>
+                    <img class="w-3 pt-[3px]" src="/assets/icons/right-arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="items flex w-80 flex-col pt-12 pl-4 space-y-3">
+                <img class="w-72" src="/assets/images/Content-Card-Surface-Laptop-5-M1-Platinum-01-1.avif"
+                    alt="PC-Game-Pass-Expansion">
+                <div class="button px-3 py-0.5 font-medium bg-yellow-500 w-fit">New</div>
+                <span class="font-medium text-2xl">Surface Laptop 5</span>
+                <span class="w-72">
+                    Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, with Windows 11..
+                </span>
+                <div class="flex space-x-2 cursor-pointer font-medium text-blue-600 items-center">
+                    <span>Join now</span>
+                    <img class="w-3 pt-[3px]" src="/assets/icons/right-arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="items flex w-80 flex-col pt-12 pl-4 space-y-3">
+                <img class="w-72" src="/assets/images/Surface-Laptop-Studio-01-CP.jpg" alt="PC-Game-Pass-Expansion">
+                <span class="font-medium text-2xl pt-8">Surface Laptop Studio</span>
+                <span class="w-72">
+                    Flex your creative muscle on the most powerful Surface Laptop. Now available with Windows 11.
+                </span>
+                <div class="flex space-x-2 cursor-pointer font-medium text-blue-600 items-center">
+                    <span>Join now</span>
+                    <img class="w-3 pt-[3px]" src="/assets/icons/right-arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="items flex w-80 flex-col pt-12 pl-4 space-y-3">
+                <img class="w-72" src="/assets/images/Content-Card-Bing-AI-No-Text.avif" alt="PC-Game-Pass-Expansion">
+                <span class="font-medium text-2xl pt-8">Introducing the new Bing</span>
+                <span class="w-72">
+                    Your AI-powered copilot for the web. Ask questions. Chat to refine results. Get comprehensive
+                    answers and creative inspiration.
+                </span>
+                <div class="flex space-x-2 cursor-pointer font-medium text-blue-600 items-center">
+                    <span>Join now</span>
+                    <img class="w-3 pt-[3px]" src="/assets/icons/right-arrow.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 </body>
+
 </html>
